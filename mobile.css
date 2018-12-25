@@ -1,0 +1,212 @@
+/* górne logo*/
+@media screen and ( min-width: 1024px){
+	.logo {
+		display: inline-block;
+	}
+}
+@media screen and ( min-width: 1024px){
+	.logo1 {
+		font-size: 23px;
+		display: inline-block;
+		height: 55px;
+		padding: 12px 1000px 12px 35px;
+	}
+}
+@media screen and ( min-width: 1024px){
+	.logo2 {
+		font-size: 14px;
+		margin-left: 160px;
+		padding: 8px 16px;
+		display: inline-block;
+	}
+}
+@media screen and ( min-width: 1024px){
+	.logo3{
+		font-size: 13px;
+		margin-left: 45px;
+		display: inline-block;
+	}
+}	
+/* logo dolne*/
+
+
+
+@media screen and ( min-width: 1024px){
+	.logotwo {
+		display: inline-block;
+		padding: 20px 22px 0 14px;
+		font-size: 16px;
+	}
+}
+@media screen and ( min-width: 1024px){
+	.anny {
+		font-size: 25px;
+		padding: 0 600px 0 200px;
+		display: inline-block;
+	}
+}
+@media screen and ( min-width: 1024px){
+	.link {
+		font-size: 12px;
+		display: inline-block;
+		padding: 0 20px;
+	
+		
+	}
+}	
+@media screen and ( min-width: 1024px){
+	.home {
+		font-size: 12px;
+		display: inline-block;
+		padding-right: 30px;
+	
+	}
+}
+	
+/*obraz w tle */
+@media screen and ( min-width: 1024px){
+	section {
+		width: 100%;
+		height: 598px;
+		background: url('tlo1.jpg');
+		background-repeat: no-repeat;
+	}
+}
+@media screen and ( min-width: 1024px){
+	section h1 {
+		font-size: 40px;
+		margin-top: 20px;
+		padding: 100px 200px 0 0;
+		text-align: right;
+	}
+}
+@media screen and ( min-width: 1024px){
+	section p {
+		font-size: 18px;
+		margin-top: 50px;
+		font-weight: 600;
+		text-align: right;
+		line-height: 1.5;
+		padding-right: 100px;
+	}
+}
+@media screen and ( min-width: 1024px){
+	section a {
+		font-size: 16px;
+		margin-top: 50px;
+		text-align: center;
+		margin-left: 1200px;
+		padding: 15px 20px;
+		font-weight: 900;
+		border-radius: 70px;
+	}
+}
+/*recent works */
+@media screen and ( min-width: 1024px){
+	header h1 {
+		font-size: 30px;
+		padding-top: 100px;
+	}
+}
+@media screen and ( min-width: 1024px){
+	header p {
+		font-size: 16px;
+		padding-top: 20px;
+		margin-bottom: 80px;
+	}
+}
+
+/* trzy obrazki pierwszy rząd*/
+
+
+@media screen and ( min-width: 1024px){
+.container {
+	padding-left: 150px;
+	}
+}
+
+
+@media screen and ( min-width: 1024px){
+.image {
+	width: 350px;
+	height: 350px;
+	padding-bottom: 40px;
+	}
+}
+	
+@media screen and ( min-width: 1024px){
+.topleft1 {
+	position: absolute;
+	top: 240px;
+	left: 150px;
+	font-size: 20px;
+	}
+}
+@media screen and ( min-width: 1024px){
+.bottonleft1 {
+	position: absolute;
+	bottom: 60px;
+	left: 100px;
+	font-size: 15px;
+	}
+}
+
+
+@media screen and ( min-width: 1024px){
+.boxoneone {
+	position: relative;
+	float: left;
+	margin: 0 28px;
+	}
+}
+
+
+/* work */
+
+@media screen and ( min-width: 1024px){
+	.work h1 {
+	font-size: 50px;
+	margin-top: 200px;
+	padding: 0 50px 100px 200px;
+	display: inline-block;
+	
+	
+	} 
+}
+@media screen and ( min-width: 1024px){	
+	.obraz {
+	float: right;
+	width: 400px;
+	height: 400px;
+
+	
+	}
+}
+@media screen and ( min-width: 1024px){
+	.work p {
+	text-align: left;
+	line-height: 2.5;
+	font-size: 16px;
+	padding: 0px 400px 200px 200px;
+	}
+}
+
+/* footer */
+
+
+@media screen and ( min-width: 1024px){
+.footer h5 {
+	font-size: 15px;
+	padding: 20px 0 20px 200px;
+	
+	}
+}
+
+
+@media screen and ( min-width: 1024px){
+.footer p {
+	font-size: 15px;
+	padding-left: 950px;
+   }
+}
+   
