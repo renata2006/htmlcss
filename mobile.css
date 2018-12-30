@@ -1,65 +1,58 @@
 /* górne logo*/
+
 @media screen and ( min-width: 1024px){
-	.logo {
+	.logo-top li {
 		display: inline-block;
+
 	}
 }
+
 @media screen and ( min-width: 1024px){
-	.logo1 {
+	.logo2  {
 		font-size: 23px;
-		display: inline-block;
-		height: 55px;
-		padding: 12px 1000px 12px 35px;
+		margin-left: 20px;
 	}
 }
 @media screen and ( min-width: 1024px){
-	.logo2 {
+	.logo3 {
 		font-size: 14px;
-		margin-left: 160px;
-		padding: 8px 16px;
-		display: inline-block;
+		margin-left: 1100px;
+		padding: 8px 20px 5px;
 	}
 }
 @media screen and ( min-width: 1024px){
-	.logo3{
+	.logo4  {
 		font-size: 13px;
-		margin-left: 45px;
-		display: inline-block;
 	}
-}	
+}
+
+
 /* logo dolne*/
 
-
-
 @media screen and ( min-width: 1024px){
-	.logotwo {
+	.logo-botton li {
 		display: inline-block;
-		padding: 20px 22px 0 14px;
-		font-size: 16px;
+		padding: 25px 0;
 	}
 }
+
 @media screen and ( min-width: 1024px){
 	.anny {
-		font-size: 25px;
-		padding: 0 600px 0 200px;
-		display: inline-block;
+		font-size: 18px;
+		padding: 0 650px 0 200px;
+	
 	}
 }
 @media screen and ( min-width: 1024px){
 	.link {
 		font-size: 12px;
-		display: inline-block;
-		padding: 0 20px;
-	
-		
+		padding: 10px 30px;
 	}
 }	
 @media screen and ( min-width: 1024px){
 	.home {
 		font-size: 12px;
-		display: inline-block;
-		padding-right: 30px;
-	
+		padding-right:10px;
 	}
 }
 	
@@ -67,35 +60,37 @@
 @media screen and ( min-width: 1024px){
 	section {
 		width: 100%;
-		height: 598px;
+		height: 700px;
 		background: url('tlo1.jpg');
 		background-repeat: no-repeat;
 	}
 }
 @media screen and ( min-width: 1024px){
-	section h1 {
+	.linia h1 {
 		font-size: 40px;
-		margin-top: 20px;
-		padding: 100px 200px 0 0;
-		text-align: right;
+		padding-left: 800px;
+		word-spacing: 8px;
+		padding-top: 150px;
+	
 	}
 }
 @media screen and ( min-width: 1024px){
 	section p {
-		font-size: 18px;
-		margin-top: 50px;
+		font-size: 15px;
+		margin-top: 30px;
 		font-weight: 600;
 		text-align: right;
 		line-height: 1.5;
-		padding-right: 100px;
+		padding-left: 500px; 
+		padding-right: 60px;
 	}
 }
 @media screen and ( min-width: 1024px){
 	section a {
 		font-size: 16px;
-		margin-top: 50px;
+		margin-top: 10px;
 		text-align: center;
-		margin-left: 1200px;
+		margin-left: 1320px;
 		padding: 15px 20px;
 		font-weight: 900;
 		border-radius: 70px;
@@ -105,108 +100,122 @@
 @media screen and ( min-width: 1024px){
 	header h1 {
 		font-size: 30px;
-		padding-top: 100px;
+		padding-top: 60px;
 	}
 }
 @media screen and ( min-width: 1024px){
 	header p {
 		font-size: 16px;
-		padding-top: 20px;
-		margin-bottom: 80px;
+		margin-bottom: 70px;		
 	}
 }
-
 /* trzy obrazki pierwszy rząd*/
 
-
 @media screen and ( min-width: 1024px){
-.container {
-	padding-left: 150px;
-	}
-}
-
-
-@media screen and ( min-width: 1024px){
-.image {
-	width: 350px;
-	height: 350px;
-	padding-bottom: 40px;
-	}
-}
-	
-@media screen and ( min-width: 1024px){
-.topleft1 {
-	position: absolute;
-	top: 240px;
-	left: 150px;
-	font-size: 20px;
+	.container {
+		width: 1200px;
+		height: 400px;
 	}
 }
 @media screen and ( min-width: 1024px){
-.bottonleft1 {
-	position: absolute;
-	bottom: 60px;
-	left: 100px;
-	font-size: 15px;
+	.image {
+		width: 400px;
+		height: 400px;
+		padding: 15px;
+
 	}
 }
-
-
 @media screen and ( min-width: 1024px){
-.boxoneone {
-	position: relative;
-	float: left;
-	margin: 0 28px;
+	.topleft1 {
+		position: absolute;
+		top: 280px;
+		left: 190px;
+		font-size: 20px;
+		border-top: 4px solid #a67d4a;
 	}
 }
-
+@media screen and ( min-width: 1024px){
+	.bottonleft1 {
+		position: absolute;
+		bottom: 6;
+		left: 150px;
+		font-size: 15px;
+	}
+}
+@media screen and ( min-width: 1024px){
+	.boxoneone {
+		position: relative;
+		float: left;
+	}
+}
 
 /* work */
+@media screen and ( min-width: 1024px){
+	.container1 {
+		width: 100%;
+		clear: both;
+		height: 550px;;
+	}
+}
 
 @media screen and ( min-width: 1024px){
-	.work h1 {
-	font-size: 50px;
-	margin-top: 200px;
-	padding: 0 50px 100px 200px;
-	display: inline-block;
-	
-	
+	.box {
+		position: relative;
+		float: left;
+		clear: both;
 	} 
 }
-@media screen and ( min-width: 1024px){	
-	.obraz {
-	float: right;
-	width: 400px;
-	height: 400px;
 
-	
-	}
-}
 @media screen and ( min-width: 1024px){
-	.work p {
-	text-align: left;
-	line-height: 2.5;
-	font-size: 16px;
-	padding: 0px 400px 200px 200px;
+	.top {
+		position: absolute;
+		top: 90px;
+		left: 200px;
+		font-size: 50px;
+		color: #a67d4a;
+		width: 400px;
+		}		
 	}
-}
+	@media screen and ( min-width: 1024px){
+	.botton {
+		position: absolute;
+		top: 180px;
+		left: 200px;
+		font-size: 15px;
+		color: black;
+		text-align: justify;
+		width: 500px;;
+		line-height: 2.0;
+		}
+	}
+
+	@media screen and ( min-width: 1024px){
+	.right {
+		position: absolute;
+		top: 100px;
+		left: 900px;
+		height: 450px;
+		width: 450px;
+		}
+	}
 
 /* footer */
-
-
-@media screen and ( min-width: 1024px){
-.footer h5 {
-	font-size: 15px;
-	padding: 20px 0 20px 200px;
-	
+@media screen and ( min-width: 1024px){  
+	footer {
+		color: #A67D4A;
+		text-transform: capitalize;
+		padding: 30px 220px;
+		margin-top: 60px;
+		font-size: 15px;
+		}
 	}
-}
-
-
 @media screen and ( min-width: 1024px){
-.footer p {
-	font-size: 15px;
-	padding-left: 950px;
-   }
-}
-   
+	.tekst2:hover {
+		cursor: pointer;
+		}
+	}
+@media screen and ( min-width: 1024px){
+	.tekst3 {
+		padding-left: 800px;
+		}
+	}

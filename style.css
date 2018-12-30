@@ -1,76 +1,119 @@
+/*reset*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+body {
+ line-height: 1;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+
+
+
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Lato', sans-serif;
 	box-sizing: border-box;
-
 }
-
-
 body {
-	max-width: 100%;
+	width: 100%;
 	margin: 0 auto;
-	
-}
+	font-family: 'Lato', sans-serif;
+	}
 a {
 	text-decoration: none;
 	}
-
 /* górne logo*/
 
-.logo {
+.logo-top {
 	background-color: black;
-	width: 100%;
-	display: inline-block;
+	box-shadow: 1px 1px 0 black;
+	max-width: 100%;
 }
-
-.logo1 {
-	font-size: 15px;
-	color: #669900;
+.logo-top li {
 	display: inline-block;
-	
+	padding: 10px 10px;
 }
-
-.logo1::before {
-	content: 'evento';
+.logo2  {
+	font-size: 22px;
+	line-height: 1.5;
 	color: white;
 }
-
-.logo2 {
-	font-size: 12px;
+.logo2::after {
+	content: "market";
+	color: #669900;
+}
+.logo3 {
+	font-size: 14px;
 	background-color: #669900;
 	border-radius: 5px;
 	color: white;
-	display: inline-block;
-}
-.logo2:hover {
-	background-color: green;
-	cursor: pointer;
-
-}
-.logo3{
-	font-size: 12px;
-	text-transform: capitalize;
-	color: #777777;
-	display: inline-block;
+	margin-left: 190px;
+	padding: 8px 15px;
 }
 .logo3:hover {
-	color: white;
-	cursor: pointer;
-	
+    background-color: #82b440;
 }
-/* logo dolne*/
+.logo4 {
+	color: #777777;
+	text-transform: capitalize;
+	font-size: 13px;
+	font-weight: 500;
+}
+.logo4:hover {
+	color: white;
+}
 
-.logotwo{
-	text-align: center;
+/* logo dolne*/
+.logo-botton {
 	background-color: white;
 	color: black;
 	text-transform: uppercase;
-	
+	max-width: 100%;
 }
-.anny
-{
-	font-size: 12px; 
+.logo-botton li {
+	text-align: center;
+}
+.anny {
+	font-size: 15px; 
 	color: #A67D4A; 
 	font-weight: 900;
 	text-transform: uppercase;
@@ -86,167 +129,159 @@ a {
 .link:hover {
 	color: #A67D4A;
 }
-
-
-
-
 /*obraz w tle */
-
-
-
 section {
 	background: url('tlo3.jpg');
 	background-repeat: no-repeat;
-	width: 100%;
-	height: 455px;
+	height: 355px;
 	cursor: pointer;
+	max-width: 100%;
 }
-section h1 {
-	font-size: 25px;
-	margin-top: 40px;
-	padding-top: 20px;
+.linia h1 {
+	font-size: 20px;
+	padding: 50px 0 0 180px;
 	text-transform: capitalize;
-	color: #A67D4A;
-	
-	 
+	word-spacing: 10px;
 }
-section h1::before {
-	content: 'bootstop ';
+.linia1{
 	color: white;
 }
-section h1::after {
-	content: ' on codeCanyon';
+.linia2 {
+	color: #A67D4A;	
+	border-top: 4px solid #A67D4A;
+	border-bottom: 4px solid #A67D4A;
+}
+.linia3 {
 	color: white;
 }
 section p {
-		font-size: 15px;
-		color: white;
-		margin-top: 30px;
-		text-align: center;
-		
-	}
+	font-size: 16px;
+	color: white;
+	margin: 20px 70px 30px 180px;
+	text-align: right;
+	line-height: 1.2;
+}
 section a {
-		color: white;
-		font-size: 15px;
-		margin-top: 30px;
-		background-color: #A67D4A;
-		text-transform: uppercase;
-		display: inline-block;
-		margin-left: 400px
+	color: white;
+	font-size: 15px;
+	background-color: #A67D4A;
+	border-radius: 20px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-left: 390px;
+	padding: 10px 20px;
+	font-weight: 900;
 }
 section a:hover {
-		color: #A67D4A;
-		background-color: white;
+	color: #A67D4A;
+	background-color: white;
 }
 
 /*recent works */
+header {
 
-	header {
-
-		background-color: white;
-		text-align: center;
-	}
-	header h1 {
-		font-size: 20px;
-		color: #A67D4A;
-		text-transform: capitalize;
-		padding-top: 60px;
-		font-weight: 800;
-	}
+	background-color: white;
+	text-align: center;
+}
+header h1 {
+	font-size: 30px;
+	color: #A67D4A;
+	text-transform: capitalize;
+	padding-top: 100px;
+	font-weight: 800;
+}
 	header p {
-		font-size: 15px;
-		color: black;
-		padding-top: 20px;
-		line-height: 1.5;
-		margin-bottom: 40px
-	}
-	
-
+	font-size: 14px;
+	color: black;
+	margin-top: 20px;
+	line-height: 2.0;
+	margin-bottom: 90px;
+}
 /* trzy obrazki pierwszy rząd*/
 		
 .container {
-	max-width: 100%;
-	margin: 0 auto;
 	color: white;
-	padding-left: 130px;
-
+	margin: 0 auto;
 }
 .image {
-	width: 350px;
-	height: 350px;
-	padding-bottom: 40px;
-	}
+	max-width: 100%;
+	height: 660px;
+	padding: 5px 10px;
+}
 .topleft1 {
 	position: absolute;
-	top: 240px;
-	left: 150px;
+	top: 540px;
+	left: 360px;
 	font-size: 20px;
-	}
+	border-top: 5px solid #A67D4A;
+	text-transform: capitalize;
+	padding-top: 10px;
+}
 .bottonleft1 {
 	position: absolute;
 	bottom: 60px;
-	left: 100px;
-	font-size: 15px;
-	}
-
+	left: 300px;
+	font-size: 17px;
+}
 .boxoneone {
 	position: relative;
-	margin: 0 28px;
-	
-	
 }
-	
-
 /* work */
-
-.work {
-	background-color: white;
-
+.container1 {
+	width: 80%;
+	clear: both;
+	height: 850px;
+	margin: 0 auto;
 }
-.work h1 {
+.box {
+	position: relative;
+	float: left;
+	clear: both;
+} 
+.top {
+	position: absolute;
+	top: 50px;
+	left: 10px;
+	font-size: 15px;
 	color: #A67D4A;
-	font-size: 10px;
-	text-align: center;
-	display: inline-block;
+	font-size: 30px;
+	width: 200px;
 }
-
-.obraz {
-	float: right;
-	width: 500px;
-	height: 500px;
-	margin: 200px 200px 100px 0;
+.botton {
+	position: absolute;
+	top: 100px;
+	left: 10px;
+	font-size: 15px;
+	color: black;
+	width: 450px;
+	line-height: 1.6;
+	text-align: justify;
 }
-
-.work p {
-	text-align: left;
-	line-height: 2.5;
-	font-size: 16px;
-	padding: 0px 400px 0 200px;
+.right {
+	width: 450px;
+	height: 450px;
+	position: absolute;
+	top: 380px;
+	left: 30px;
 }
-
 /* footer */
 
-.footer {
-	background-color: #cecbcb;
+footer {
 	color: #A67D4A;
-	border: 2px solid yellow;
-	width: 100%;
-}
-
-.footer h5 {
-	font-size: 10px;
 	text-transform: capitalize;
-	display: inline-block;
-
-	}
-.footer p {
-	font-size: 10px;
-	display: inline-block;
-
+	font-size: 14px;
+	padding: 20px 80px;
+	margin-top: 30px;
+	background: linear-gradient(left,#ffffff, rgb(204, 204, 204));
+	background: -moz-linear-gradient(left,#ffffff, rgb(204, 204, 204));
+	background: -o-linear-gradient(left,#ffffff, rgb(204, 204, 204));
+	background: -webkit-linear-gradient(left,#ffffff, rgb(204, 204, 204));
 }
-.wyraz2:hover {
-cursor: pointer;
+.tekst2:hover {
+	cursor: pointer;
 }
-
+.tekst3 {
+	padding-left: 120px;
+}
 
 	
