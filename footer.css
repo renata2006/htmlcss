@@ -1,0 +1,27 @@
+.stopka {
+	padding: 0 20px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    color: #A67D4A;
+	height: 50px;
+	text-transform: capitalize;
+	background: linear-gradient(left,#ffffff, rgb(204, 204, 204));
+	background: -moz-linear-gradient(left,#ffffff, rgb(204, 204, 204));
+	background: -o-linear-gradient(left,#ffffff, rgb(204, 204, 204));
+	background: -webkit-linear-gradient(left,#ffffff, rgb(204, 204, 204));
+}
+.stopka1 {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.tekst1 {
+	padding: 0 10px;
+}
+.tekst2:hover {
+	cursor: pointer;
+}
+
+

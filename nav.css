@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Oxygen', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+
+/* navbar*/
+.navbar {
+	background-color: black;
+	box-shadow: 1px 1px 0 black;
+    padding: 0 20px;
+    height: 60px;
+	display: flex;
+	align-items: center;
+}
+.navbar-list {
+	display: flex;
+	justify-content: flex-end;
+	padding-left: 20px;
+	width: 50%;
+}
+.navbar-branding {			
+	width: 50%;
+	padding-left: 40px;
+}
+.navbar-branding a {
+	font-size: 20px;
+	color: white;
+}
+.logo2::after {
+	content: "market";
+	color: #669900;
+}
+.logo3 {
+	font-size: 14px;
+	color: white;
+	background-color: #669900;
+	padding: 8px 20px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.logo3:hover {
+	background-color: #669968;
+}
+.logo4 {
+	color: #777777;
+	text-transform: capitalize;
+	font-size: 13px;
+}
+.logo4:hover {
+	color: white;
+}
+/* logo-botton*/
+.logo-botton {
+	background-color: white;
+	color: black;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 60px;
+}
+.logo-link {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	width: 100%;
+	margin-right: 200px;
+	margin-left: 50px;
+
+}
+.logo-anna a {
+	 color: #A67D4A;
+	 font-size: 20px;
+	 font-weight: bold;
+	 text-transform: uppercase;
+	
+ }
+ .logo-link a {
+	 text-transform: uppercase;
+	 letter-spacing: 1px;
+ }
+ .logo-link a {
+	color: black;
+	font-size: 12px;
+	margin: 0 10px;
+ }
+ .logo-link a:hover {
+	 color: #A67D4A;
+ }
