@@ -14,20 +14,20 @@ a {
 .navbar {
 	background-color: black;
 	box-shadow: 1px 1px 0 black;
-    padding: 0 20px;
     height: 60px;
 	display: flex;
+	justify-content: space-around;
 	align-items: center;
 }
 .navbar-list {
 	display: flex;
 	justify-content: flex-end;
-	padding-left: 20px;
+	padding-left: 25px;
 	width: 50%;
 }
 .navbar-branding {			
-	width: 50%;
-	padding-left: 40px;
+	width: 300px;
+	padding-left: 30px;
 }
 .navbar-branding a {
 	font-size: 20px;
@@ -63,8 +63,7 @@ a {
 	height: 80px;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
+	justify-content: space-around;
 	align-items: center;
 	padding-left: 60px;
 }
@@ -78,22 +77,26 @@ a {
 	margin-left: 50px;
 
 }
+.logo-anna {
+	width: 550px;
+}
+
 .logo-anna a {
-	 color: #A67D4A;
-	 font-size: 20px;
-	 font-weight: bold;
-	 text-transform: uppercase;
+	color: #A67D4A;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-left: 100px;
 	
  }
  .logo-link a {
-	 text-transform: uppercase;
-	 letter-spacing: 1px;
- }
- .logo-link a {
+	text-transform: uppercase;
+	letter-spacing: 1px;
 	color: black;
 	font-size: 12px;
 	margin: 0 10px;
  }
+ 
  .logo-link a:hover {
 	 color: #A67D4A;
  }
