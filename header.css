@@ -1,12 +1,12 @@
 .text {
 	height: 420px;
-	background-image: url(tlo4_small.jpg);
+	background-image: url(tlo1_small.jpg);
 	border: 2px solid black;
 
 }
 @media screen and ( min-width: 1024px){
 	.text {
-	background-image: url(tlo4_big.jpg);
+	background-image: url(tlo1_big.jpg);
 	height: 550px;
 }
 }
