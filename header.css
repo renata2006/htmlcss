@@ -1,67 +1,69 @@
 .text {
-	
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-	align-items: center;
-}
-.linia {
-	font-size: 28px;
-	text-transform: capitalize;
-	font-weight: 900;
-	letter-spacing: 2px;
-	z-index: 2;
-	position: absolute;
-	top: 200px;
+	height: 420px;
+	background-image: url(tlo4_small.jpg);
+	border: 2px solid black;
 
 }
+@media screen and ( min-width: 1024px){
+	.text {
+	background-image: url(tlo4_big.jpg);
+	height: 550px;
+}
+}
+.linia {
+	font-size: 26px;
+	letter-spacing: 2px;
+	margin: 50px;
+	
+}
+@media screen and ( min-width: 1024px){
+	.linia {
+		font-size: 35px;
+		padding-left: 100px;
+	}
+}
 .liniap  {
+	font-size: 14px;
 	word-spacing: 10px;
 	line-height: 20px;
 	text-align: justify;
-	color: white;
-	width: 500px;
-	font-size: 16px;
-	position: absolute;
-	top: 300px;
-	z-index: 2;
-	
+	width: 400px;
+	margin: 50px;
 }
-.liniaa a {
+@media screen and ( min-width: 1024px){
+.liniap {
+	font-size: 18px;
+	width: 800px;
+	padding-left: 100px;
+	}
+}
+
+.text a {
 	font-size: 15px;
+	background-color: #A67D4A;
+	border-radius: 80px;
+	padding: 15px 30px;
 	font-weight: 900;
 	color: white;
-	background-color: #A67D4A;
-	border-radius: 20px;
 	padding: 10px 20px;
-	text-transform: uppercase;
-	position: absolute;
-	top: 400px;
-	z-index: 2;
+	margin-left: 50px;
+}
+@media screen and ( min-width: 1024px){
+.text a {
+	font-size: 15px;
+	padding: 10px 20px;
+	margin-left: 150px;
+	}
+}
 	
-
-}
-.linia1{
-	color: white;
-}
 .linia2 {	
 	border-top: 4px solid #A67D4A;
 	border-bottom: 4px solid #A67D4A;
-	color: #A67D4A;
 }
-.linia3 {
-	color: white;
-}
+
 .text a:hover {
 	color: #A67D4A;
 	background-color: white;
 }
-.text img {
-	height: 100%;
-	width: 100%;
-	position: relative;
 
-
-
-}
 
