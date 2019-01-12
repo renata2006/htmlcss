@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-between;
 	height: 50px;
+
 	background: linear-gradient(left,#ffffff, rgb(204, 204, 204));
 	background: -moz-linear-gradient(left,#ffffff, rgb(204, 204, 204));
 	background: -o-linear-gradient(left,#ffffff, rgb(204, 204, 204));
