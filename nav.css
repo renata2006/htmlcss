@@ -5,57 +5,70 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 50px;	
+	height: 60px;	
 }
 .navbar-logo {
 	padding-left: 20px;
 }
 .navbar-logo a {
-	font-size: 24px;
+	font-size: 28px;
 }
-.navbar-logo a:first-child + a {
-	color: #669900;
+.logo2 {
+	color: #6f9637;
 }
-.navbar-list a:first-child  {
-	font-size: 15px;
-	background-color: #669900;
-	padding: 8px 18px;
-	border-radius: 8px;
+.navbar-list a {
+	display: block;
 }
-.navbar-list::first-letter  { 
-	text-transform: capitalize;
+.navbar-list li {
+	float: left;;
 }
-.navbar-list a:first-child:hover {
-	background-color: #669970;
+.logo3 {
+	background-color: #6f9637;
+	margin-right: 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	padding: 8px 15px;
+	line-height: 15px;
 }
-.navbar-list a:first-child + a {
-	font-size: 15px;
-	margin: 0 30px;
+.logo3::first-letter {
+	text-transform: uppercase;
+}
+.logo4 {
+	margin-right: 20px;
+	font-size: 14px;
+	padding: 8px 15px;
 	color: #777777;
-	
+	line-height: 15px;
 }
-.navbar-list a:first-child + a:hover {
+.logo3:hover {
+	background-color: #486d14;
+}
+.logo4:hover {
 	color: white;
 }
 
 /* logo-botton*/
 .logo-botton {
 	display: flex;
-	justify-content: space-around;
 	align-items: center;
+	justify-content: space-around;
 	height: 70px;
 }
 .logo-anna a {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: bold;
  }
  .logo-link a {
 	letter-spacing: 1px;
 	color: black;
-	font-size: 13px;
-	padding: 0 15px;
-	
+	font-size: 12px;
+	padding: 0 20px;
+	display: block;
  }
+ .logo-link li {
+	 float: left;
+ }
+
  .logo-link a:hover {
 	 color: #A67D4A;
  }
