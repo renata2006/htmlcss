@@ -1,69 +1,51 @@
-.text {
-	height: 420px;
+
+.linia {
+	height: 400px;
 	background-image: url(tlo1_small.jpg);
 	border: 2px solid black;
-
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 @media screen and ( min-width: 1024px){
-	.text {
+.linia {
 	background-image: url(tlo1_big.jpg);
 	height: 550px;
+
 }
 }
-.linia {
-	font-size: 26px;
+.linia1, .linia2, .linia3 {
+	font-size: 35px;
 	letter-spacing: 2px;
-	margin: 50px;
-	
-}
-@media screen and ( min-width: 1024px){
-	.linia {
-		font-size: 35px;
-		padding-left: 100px;
-	}
-}
-.liniap  {
-	font-size: 14px;
-	word-spacing: 10px;
-	line-height: 20px;
-	text-align: justify;
-	width: 400px;
-	margin: 50px;
-}
-@media screen and ( min-width: 1024px){
-.liniap {
-	font-size: 18px;
-	width: 800px;
-	padding-left: 100px;
-	}
 }
 
-.text a {
-	font-size: 15px;
-	background-color: #A67D4A;
-	border-radius: 80px;
-	padding: 15px 30px;
-	font-weight: 900;
-	color: white;
-	padding: 10px 20px;
-	margin-left: 50px;
-}
-@media screen and ( min-width: 1024px){
-.text a {
-	font-size: 15px;
-	padding: 10px 20px;
-	margin-left: 150px;
-	}
-}
-	
 .linia2 {	
 	border-top: 4px solid #A67D4A;
 	border-bottom: 4px solid #A67D4A;
 }
-
-.text a:hover {
+.linia p  {
+	font-size: 18px;
+	word-spacing: 10px;
+	line-height: 20px;
+	text-align: justify;
+	width: 455px;
+	margin-top: 30px;	
+}
+.linia a {
+	font-size: 15px;
+	background-color: #A67D4A;
+	border-radius: 80px;
+	font-weight: 900;
+	color: white;
+	padding: 10px 20px;
+	margin-top: 20px;
+	transition: all 2s ease-in-out;
+}
+.linia a:hover {
 	color: #A67D4A;
 	background-color: white;
+	transform: scale(1.1);
 }
 
 

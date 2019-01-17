@@ -1,6 +1,6 @@
 .ourcontact {
     display: flex;
-    flex-wrap: wrap;
+ 
     justify-content: space-around;
     align-items: center;
     margin: 100px 0;
