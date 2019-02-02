@@ -1,252 +1,350 @@
+/*reset*/
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Lato', sans-serif;
 	box-sizing: border-box;
-
 }
-
-
+/*style*/
 body {
-	max-width: 100%;
-	margin: 0 auto;
-	
+	font-family: 'Oxygen', sans-serif;
 }
 a {
 	text-decoration: none;
-	}
-
-/* górne logo*/
-
-.logo {
+}
+img {
+	width: 100%;
+}
+/*transition*/
+.top div + div a:first-child,
+.top div + div a:last-child,
+.botton div a,
+.welcom-home a,
+.welcom-contact a {
+	transition: .5s linear;
+}
+/*klasy*/
+.color-first {
+	color: #A67D4A;
+}
+.text-upp {
+	text-transform: uppercase;
+}
+.text-cap {
+	text-transform: capitalize;
+}
+/*display-flex*/
+.top,
+.botton,
+.card-section,
+.main-botton,
+footer,
+.ourcontact  {
+	display: flex;
+	align-items: center;
+}
+/* 	Strona home
+	home-top*/
+nav {
+	width: 100%;
+}
+.top,
+.botton {
+	justify-content: space-between;
+	padding: 0 20px;
+}
+.top {
 	background-color: black;
-	width: 100%;
-	display: inline-block;
+	height: 60px;
+	position: fixed;
+	z-index: 1;
 }
-
-.logo1 {
-	font-size: 15px;
-	color: #669900;
-	display: inline-block;
-	
-}
-
-.logo1::before {
-	content: 'evento';
-	color: white;
-}
-
-.logo2 {
-	font-size: 12px;
-	background-color: #669900;
-	border-radius: 5px;
-	color: white;
-	display: inline-block;
-}
-.logo2:hover {
-	background-color: green;
-	cursor: pointer;
-
-}
-.logo3{
-	font-size: 12px;
-	text-transform: capitalize;
-	color: #777777;
-	display: inline-block;
-}
-.logo3:hover {
-	color: white;
-	cursor: pointer;
-	
-}
-/* logo dolne*/
-
-.logotwo{
-	text-align: center;
-	background-color: white;
-	color: black;
-	text-transform: uppercase;
-	
-}
-.anny
-{
-	font-size: 12px; 
-	color: #A67D4A; 
-	font-weight: 900;
-	text-transform: uppercase;
-}
-.home {
-	color: #A67D4A;
-	font-size: 12px;
-}
-.link {
-	color: black;
-	font-size: 12px;
-}
-.link:hover {
-	color: #A67D4A;
-}
-
-
-
-
-/*obraz w tle */
-
-
-
-section {
-	background: url('tlo3.jpg');
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 455px;
-	cursor: pointer;
-}
-section h1 {
-	font-size: 25px;
-	margin-top: 40px;
-	padding-top: 20px;
-	text-transform: capitalize;
-	color: #A67D4A;
-	
-	 
-}
-section h1::before {
-	content: 'bootstop ';
-	color: white;
-}
-section h1::after {
-	content: ' on codeCanyon';
-	color: white;
-}
-section p {
-		font-size: 15px;
-		color: white;
-		margin-top: 30px;
-		text-align: center;
-		
-	}
-section a {
-		color: white;
-		font-size: 15px;
-		margin-top: 30px;
-		background-color: #A67D4A;
-		text-transform: uppercase;
-		display: inline-block;
-		margin-left: 400px
-}
-section a:hover {
-		color: #A67D4A;
-		background-color: white;
-}
-
-/*recent works */
-
-	header {
-
-		background-color: white;
-		text-align: center;
-	}
-	header h1 {
-		font-size: 20px;
-		color: #A67D4A;
-		text-transform: capitalize;
-		padding-top: 60px;
-		font-weight: 800;
-	}
-	header p {
-		font-size: 15px;
-		color: black;
-		padding-top: 20px;
-		line-height: 1.5;
-		margin-bottom: 40px
-	}
-	
-
-/* trzy obrazki pierwszy rząd*/
-		
-.container {
-	max-width: 100%;
-	margin: 0 auto;
-	color: white;
-	padding-left: 130px;
-
-}
-.image {
-	width: 350px;
-	height: 350px;
-	padding-bottom: 40px;
-	}
-.topleft1 {
-	position: absolute;
-	top: 240px;
-	left: 150px;
+.top a:nth-child(1) {
 	font-size: 20px;
-	}
-.bottonleft1 {
-	position: absolute;
-	bottom: 60px;
-	left: 100px;
-	font-size: 15px;
-	}
-
-.boxoneone {
-	position: relative;
-	margin: 0 28px;
-	
-	
+	color: white;
 }
-	
-
-/* work */
-
-.work {
+.top span {
+	color: #6f9037;
+}
+.top div + div a:first-child  {
+	font-size: 14px;
+	padding: 5px 15px;
+	background-color: #6f9037;
+	border-radius: 30px;
+	margin-right: 20px;
+}
+.top div + div a:last-child  {
+	color: #777777;
+	font-size: 12px;
+}
+.top div + div a:last-child:hover {
+	color: white;
+}
+.top div + div a:first-child:hover {
+	color: black;
+	background-color: #6f9900;
+}
+/* 	Strona home
+	home - botton */
+.botton {
 	background-color: white;
-
+	height: 80px;
+	position: relative;
+	top: 60px;
+	left: 0;
+	z-index: 1;
 }
-.work h1 {
+.botton div:first-child a {
 	color: #A67D4A;
-	font-size: 10px;
-	text-align: center;
-	display: inline-block;
+	font-size: 20px;
 }
-
-.obraz {
-	float: right;
-	width: 500px;
+.botton div a {	
+	color: black;
+	margin-right: 30px;
+	font-size: 12px;
+}
+.botton div a:hover {
+	color: #A67D4A;
+}
+/*  Strona home    welcom-home
+	Strona contact welcom-contact*/
+.wrap {
+	position: relative;
+	top: 60px;
+	left: 0;
+}
+.welcom-home {
+	background-image: url(img/tlo51600x600.jpg);
 	height: 500px;
-	margin: 200px 200px 100px 0;
+	background-position: center center;
+	line-height: 1.5;
+	font-size: 14px;
 }
-
-.work p {
-	text-align: left;
-	line-height: 2.5;
-	font-size: 16px;
-	padding: 0px 400px 0 200px;
+.welcom-home,
+.welcom-contact {
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
 }
-
-/* footer */
-
-.footer {
-	background-color: #cecbcb;
-	color: #A67D4A;
-	border: 2px solid yellow;
-	width: 100%;
-}
-
-.footer h5 {
-	font-size: 10px;
-	text-transform: capitalize;
-	display: inline-block;
-
+@media screen and ( min-width: 1024px){
+	.welcom-home {
+		height: 700px;
 	}
-.footer p {
-	font-size: 10px;
-	display: inline-block;
-
 }
-.wyraz2:hover {
-cursor: pointer;
+.welcom-home hgroup {
+	position: absolute;
+	left: 20px;
+	top: 20px;
 }
-
-
-	
+@media screen and ( min-width: 1024px){
+	.welcom-home hgroup {
+		top: 50px;
+		left: 50px;
+    }
+}
+.welcom-home h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+@media screen and ( min-width: 1024px){
+	.welcom-home h2 { 
+		font-size: 40px;
+	}
+}	
+.welcom-home span {	
+	border-top: 4px solid #A67D4A;
+	border-bottom: 4px solid #A67D4A;	
+}
+.welcom-home p {
+	width: 400px;
+	text-align: left;
+	padding: 20px 0;
+}
+.welcom-home a {
+	display: block;
+	color: white;
+	width: 150px;
+	background-color: #A67D4A;
+	border-radius: 20px;
+	padding: 10px 20px;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+}
+.welcom-home a:hover {
+	color: #A67D4A;
+	background-color: white;
+}
+/* Strona home - main top i main botton*/
+.main-top,
+.main-botton {
+	font-size: 25px;
+	text-align: center;
+	width: 90%;
+	margin: 50px 0;
+}
+.card-section,
+.main-botton {
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.main-top p,
+.main-botton p {
+	padding-top: 30px;
+	font-size: 14px;
+	line-height: 1.6;
+}
+/* Strona home - section*/
+.card  {
+	position: relative;
+	padding-bottom: 100px;
+}
+.card img {
+	width: 400px;
+	height: 400px;
+}
+.box-card {
+	position: absolute;
+	left: 140px;
+	top: 260px;
+	border-top: 4px solid #A67D4A;
+	margin-top: 30px;
+	font-size: 16px;
+	color: white;
+}
+.box-card p:first-child {
+	text-transform: capitalize;
+	padding: 15px 0;
+}
+.main-botton img {
+	width: 400px;
+	height: 400px;
+	margin-top: 50px;
+}
+.main-botton div:first-child {
+	width: 50%;
+}
+/*Strona home - footer*/
+footer {
+	justify-content: space-around;
+	height: 60px;
+	font-size: 20px;
+	margin-top: 100px;
+	background: linear-gradient(left,#ffffff, rgb(204, 204, 204));
+	background: -moz-linear-gradient(left,#ffffff, rgb(204, 204, 204));
+	background: -o-linear-gradient(left,#ffffff, rgb(204, 204, 204));
+	background: -webkit-linear-gradient(left,#ffffff, rgb(204, 204, 204));
+}
+footer span:hover {
+	cursor: pointer;
+}
+/* Strona contact 
+   section welcom-contact  */
+.welcom-contact {
+	background-image: url(img/foto1.jpg);
+	height: 350px;
+	margin-bottom: 50px;
+}
+@media screen and ( min-width: 1024px){
+.welcom-contact {
+		height: 300px;
+		background-position: center bottom;
+	}
+}
+.welcom-contact h2 {
+	font-size: 50px;
+}
+.welcom-contact hgroup {
+	position: absolute;
+	left: 20px;
+	top: 0;	
+}
+@media screen and ( min-width: 1024px){
+	.welcom-contact hgroup { 
+		top: 50px;
+		left: 220px;;
+	}
+}
+.welcom-contact a {
+	color: black;
+}
+.welcom-contact a:hover {
+	color: #A67D4A;
+}
+/* Strona contact 
+   section ourcontact  */
+.ourcontact {
+	flex-wrap: wrap;
+	justify-content: center;
+	color: black;
+}
+.ourcontact div:first-child {
+	flex-basis: 50%;
+}
+@media screen and ( min-width: 1024px){
+.ourcontact div:first-child {
+		flex-basis: 45%;
+		justify-content: space-between;
+}
+}	
+.ourcontact h4,
+.ourcontact h5,
+.ourcontact p {
+	padding-bottom: 20px;
+}
+.ourcontact h4,
+.ourcontact h5{
+	font-weight: bold;
+}
+.ourcontact h4,
+.ourcontact i {
+	font-size: 25px;
+}
+.ourcontact h5 {
+	font-size: 20px;
+}
+.ourcontact p {
+	text-align: left; 
+}
+.ourcontact img {
+	width: 400px;
+	height:400px;
+}	
+.ourcontact i {
+	padding-right: 20px;
+}
+/* 
+strona contact contact-form  */
+input,
+textarea,
+button {
+	display: block;
+	font-size: 14px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+input,
+textarea {
+	box-shadow: 0 5px 12px 0 rgba(107, 69, 22, 0.88);
+	outline: none;
+	border: 2px solid white;
+	width: 60%;
+	height: 50px;
+}
+textarea {
+	height: 150px;
+}
+input:focus {
+	border: 2px solid #A67D4A;
+}
+button {
+	padding: 10px 20px;
+	border: 2px solid #A67D4A;
+	border-radius: 25px;
+	background-color: #A67D4A;
+	font-size: 14px;
+	color: white;
+}
+button:hover {
+	background-color: #999999;
+	border: 1px solid #999999;
+}
